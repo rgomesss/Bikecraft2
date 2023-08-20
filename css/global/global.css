@@ -4,7 +4,7 @@ body{
   color: #111111;
   padding-bottom: 600px;
 }
-h1, ul, p{
+h1, ul, p,h2,h3,h4{
   margin: 0px;
 }
 ul{
@@ -19,5 +19,31 @@ a{
 
 img {
   max-width: 100%;
-  display: block ;
+  display: block;
+}
+img[src$=".jpg"]{
+  border-radius: 4px;  
+}
+.bicicletas-lista a {
+  display: block;
+}
+.bicicletas-lista img{
+  margin-bottom: 16px;
+
+}
+.bicicletas-lista h3{
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+.bicicletas-lista h3::before{
+  content: "";
+  height: 8px;
+  width: 12px;
+  margin-right: 8px;
+  display: inline-block;
+  background-color: var(--cor-p1);
+}
+.bicicletas-lista li span{
+  padding-left: 20px;
 }
