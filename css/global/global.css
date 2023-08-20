@@ -4,7 +4,7 @@ body{
   color: #111111;
   padding-bottom: 600px;
 }
-h1, ul, p,h2,h3,h4{
+h1, ul, p,h2,h3,h4,blockquote{
   margin: 0px;
 }
 ul{
